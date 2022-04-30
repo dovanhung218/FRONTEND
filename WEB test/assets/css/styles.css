@@ -1,0 +1,304 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+#nav{
+    height: 45.6px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav .list{
+   display: inline-block;
+}
+#nav>.list>.item{
+    display: inline-block;
+    position: relative;
+}
+#nav>.list>.item>.link{
+    line-height: 45.6px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px 24px;
+}
+#nav>.list>.item:hover>.link{
+   color:black;
+   background-color: #ccc;
+}
+#nav>.list>.item:hover>.sublist{
+    display: block;
+ }
+#nav .sublist{
+    background-color: white;
+    list-style: none;
+    width: 150px;
+    display: none;
+    box-shadow: 0 0 10px gray;
+    position: absolute;
+} 
+#nav .sublist .item .link{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    line-height: 45.6px;
+    display: block;
+    text-indent: 10px;
+}
+#nav .sublist .item:hover .link{
+    background-color: #ccc;
+}
+#nav .arrow-icon{
+    font-size: 12px;
+}
+#nav .menu-icon{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#nav .search-icon,.menu-icon{
+    font-size: 20px;
+    color: white; 
+    line-height: 45.6px;
+}
+#nav .search-btn,.mobile-menu-btn{
+    float: right;
+    padding: 0px 20px;
+}
+#nav .search-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#nav .menu-icon{
+    padding: 0px 20px;
+}
+#nav .mobile-menu-btn:hover .menu-icon{
+    color: white;
+    padding: 0px 20px;
+}
+#nav .menu-icon:hover{
+    background-color: #ccc;
+}
+
+#slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('../img/slider/anh1.jpg') top center/cover no-repeat;
+}
+#slider .text-content{
+    position: absolute;
+    bottom: 47px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#slider .text-heading{
+font-weight: 500;
+font-size: 24px;
+}
+#slider .text-description{
+    font-size: 15px;
+    margin-top: 25px;
+}
+/* content section */
+#content .content-section{
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 16px 112px 16px;
+}
+#content .section-heading{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    margin-top: 50px;
+    letter-spacing: 4px;
+}
+#content .section-sub-heading{
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+#content .about-text{
+    text-align: justify;
+    margin-top: 25px;
+    line-height: 1.6;
+}
+#content .member-list{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+#content .member-name{
+    text-align: center;
+}
+#content .member-img{
+    height: 200px;
+    width: 160px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+/* tour section */
+#content .tour-section{
+    background-color: black;
+   padding-bottom: 55px;
+}
+#content .tickets-list{
+    background-color: white;
+    margin-top: 40px;
+    list-style: none;
+}
+#content .tickets-item{
+    font-size: 15px;
+    padding: 7px 14px;
+    border-bottom: 1px solid #ddd;
+    color: gray;
+}
+#content .sold-out{
+    color: white;
+    margin-left: 16px;
+    background-color: red;
+    padding: 1px 6px;
+    font-size: 15px;
+}
+#content .quantity{
+    float: right;
+    color: white;
+    background-color: black;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    line-height: 20px;
+}
+#content .places-list{
+    margin-top: 32px;
+}
+#content .place-item{
+    padding: 0px 8px;
+}
+
+#content .place-item img{
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+#content .place-item img:hover{
+    opacity: 0.6;
+}
+#content .place-body{
+    padding: 16px;
+background-color: white;
+font-size: 15px;
+
+}
+#content .place-heading{
+font-weight: bold;
+}
+#content .place-time{
+    padding: 13px 0;
+}
+#content .place-desc{
+padding-bottom: 13px;
+font-weight: 700;
+}
+#content .place-buy-btn{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 9px 13px;
+    display: inline-block;
+}
+#content .place-buy-btn:hover{
+    opacity: 0.5;
+}
+#content .contact-section{
+    margin-top: 32px;
+}
+#content .contact-form .form-control{
+    padding: 8px;
+    width: 100%;
+    margin: 4px ;
+    outline: blue;
+}
+#content .contact-form .send-btn{
+    float: right;
+    margin-top: 10px;
+}
+#content .contact-form .send-btn input{
+    margin-right: 4px;
+    background-color: black;
+    padding:6px 10px;
+    color: white;
+    border: 1px solid transparent;
+
+}
+#content .contact-form .send-btn input:hover{
+    background-color: rgb(201, 194, 194);
+    color: black;
+    cursor: pointer;
+}
+.map-section img{
+width: 100%;
+}
+#footer{
+    padding: 64px 0px;
+    text-align: center;
+}
+#footer .socials-list a{
+    font-size: 24px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.7);
+}
+#footer .copyright{
+    margin-top: 10px;
+}
+#footer .copyright a{
+    color:rgba(0, 0, 0, 0.7);
+}
+#footer .copyright a:hover,.socials-list i:hover{
+    color:rgba(0, 0, 0, 0.5);
+}
+/* common */
+.text-white{
+    color: white !important;
+}
+.text-center{
+   text-align: center !important;
+}
+.row{
+    display: flex;
+    margin: 0px -8px;
+}
+
+.col{
+    padding: 0px 8px ;
+}
+.col-full{
+    width: 100%;
+}
+.col-half{
+    width: 50%;
+}
+.col-third{
+    width: 33.3333%;
+}
+.contact-info{
+    font-weight: 600;
+    line-height: 1.6;
+}
+.contact-info i{
+    width: 30px;
+    display: inline-block;
+}
+
+

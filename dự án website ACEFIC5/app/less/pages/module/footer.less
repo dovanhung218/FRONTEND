@@ -1,0 +1,92 @@
+#footer{
+    background-color: #142c56;
+    padding: 50px 0px 20px;
+    position: relative;
+    .footer-top{
+        background-color: red;
+        width: 55%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -43%;
+        background-image: url(../../../../dist/images/images-banner/banner-footer-top.jpg);
+        background-size: 100% 100%;
+        box-shadow: 0 0 10px gray;
+        border-radius: 20px;
+        .module{
+            text-align: center;
+            margin: 0px auto;
+            padding: 25px 0px 30px;
+            .module-header{
+                color: black;
+                text-transform: uppercase;
+                font-size: 17px;
+                padding: 15px 0px;
+                font-weight: bold;
+            }
+            .module-content{
+                margin-top: 10px;
+                    .customer{
+                        padding: 10px;
+                        a{
+                           width: 152px;
+                           height: 80px;
+                           display: block;
+                           background-color: white;
+                           position: relative;
+                           box-shadow: 0 0 5px gray;
+                           img{
+                               position: absolute;
+                               transform: translate(-50%,-50%);
+                               top: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &,a{
+        color: white;
+    }
+    .footer-bottom{
+        line-height: 25px;
+        .footer-introduce{
+            max-width: 425px;
+            .introduce-content{
+                 font-style: italic;
+                 margin: 35px 0px;
+            }
+        }
+        .service{
+            .service-title{
+                font-size: 22px;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-decoration: underline;
+                padding-top: 50px;
+                padding-bottom: 35px;
+            }
+            .service-content{
+                a{
+                    margin-top: 5px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+//footer animation
+#footer{
+    .footer-top{
+        animation: footer-top-animation 1.5s alternate infinite ease ;
+    }
+    //key frame 
+    @keyframes footer-top-animation {
+        from{
+            margin-bottom: 15px;
+        }
+        to{
+            margin-top: 15px;
+        }
+    }
+}

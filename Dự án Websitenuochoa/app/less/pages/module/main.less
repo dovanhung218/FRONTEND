@@ -1,0 +1,86 @@
+body{
+    padding-top: 1px;
+}
+.section-bannerPage{
+
+    background-image: url(../../../../dist/images/banner_page.jpg);
+    background-size: cover;
+    margin-top: 96px;
+    .module-bannerPage{
+             padding-top: 59px;
+    color: #fff;
+padding-left: 64px;
+    padding-bottom: 75px;
+        .module-header{
+            .title{
+                   font-family: ubuntu_bold;
+    font-size: 60px; 
+            }
+        }
+        .module-content{
+            .banner-list{
+                padding-top: 7px;
+    margin-left: -8px;
+                .banner-list__item{
+                       display: inline-block;
+    font-size: 17px;
+    padding: 0 14px;
+                    color: #fff;
+                    position: relative;
+                    &:after{
+                          content: ">";
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: -7px;
+                    }
+                    &:last-child{
+                        &:after{
+                            display: none;
+                        }
+                    }
+                    &:first-child{
+                        .banner-list__link{
+                             padding-left: 33px;
+                        }
+                    }
+                    span{
+                        &.banner-list__link{
+                            color: #ffaa00;
+                        }
+                    }
+                    .banner-list__link{
+                        position: relative;
+                        display: block;
+                        color: #fff;
+                        
+                        &:hover{
+                            color: #ffaa00;
+                            text-decoration: underline !important;
+                        }
+                        img{
+                            position: absolute;
+                         top: 5px;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .section-bannerPage{
+        margin-top: 80px;
+        .module-bannerPage {
+            padding-left: 0;
+            text-align: center;
+            .module-header {.title{
+        font-size: 50px;
+        }}}
+    }
+
+}
+
+

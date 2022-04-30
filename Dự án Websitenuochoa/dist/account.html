@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>ByteNext</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="images/icon/fav_icon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/tool.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+    
+</head>
+<body class="index">
+     <header id="header" class="header-page">
+        <div class="header-nav">
+            <div class="bs-container">
+                <div class="nav-content clearfix">
+                    <div class="logo" data-aos="fade-down">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                    
+                    <div class="nav">
+                        <span class="show__menu"><i class="fas fa-bars"></i></span>
+                         <div class="menu">
+                            <span class="close__menu"><i class="far fa-window-close"></i></span>
+                            <ul class="menu-list clearfix" data-aos="fade-left" data-aos-delay="300">
+                                <li class="menu-list__item">
+                                    <a href="index.html" class="menu-list__link active">Trang chủ</a>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a href="about.html" class="menu-list__link">Giới thiệu</a>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a href="brand.html" class="menu-list__link">Thương hiệu</a>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a class="menu-list__link" href="product.html">Sản phẩm</a>
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-list__item">
+                                            <a href="" class="dropdown-list__link">nước hoa nam</a>
+                                        </li>
+                                        <li class="dropdown-list__item">
+                                            <a href="press_releases.html" class="dropdown-list__link">nước hoa nữ</a>
+                                        </li>
+                                        <li class="dropdown-list__item">
+                                            <a href="press_releases.html" class="dropdown-list__link">nước hoa unisex</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-list__item">
+                                    <a href="blog.html" class="menu-list__link">Blog</a>
+                                </li>
+                                <li class="menu-list__item ml iconafter">
+                                    <input type="text" name="" id="" placeholder="Tìm kiếm...">
+                                    <a href="logined.html" class="menu-list__link link-navright link-search"> <i class="fas fa-search"></i></a>
+                                </li>
+                                <li class="menu-list__item iconafter">
+                                    <a href="account.html" class="menu-list__link link-navright"> <i class="far fa-user"></i></a>
+                                </li>
+                                <li class="menu-list__item iconafter">
+                                    <a href="cart.html" class="menu-list__link link-navright" onclick="tinhtien()"> <i class="fas fa-cart-arrow-down"></i></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+<main id="main">
+    <div class="section-account">
+        <div class="bs-container">
+            <div class="module-account">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Đăng nhập</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Đăng ký</a>
+                    </li>
+                    
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                        <form class="woocommerce-form woocommerce-form-login login" method="post">
+
+
+                            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                <label for="username">Tên tài khoản hoặc địa chỉ email&nbsp;<span
+                                        class="required">*</span></label>
+                                <input type="text" class="woocommerce-Input woocommerce-Input--text input-text"
+                                    name="username" id="username" autocomplete="username" value="">
+                            </p>
+                            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                <label for="password">Mật khẩu&nbsp;<span class="required">*</span></label>
+                                <input
+                                        class="woocommerce-Input woocommerce-Input--text input-text" type="password"
+                                        name="password" id="password" autocomplete="current-password"><span
+                                        class="show-password-input"></span>
+                            </p>
+
+
+                            <p class="form-row">
+                                <label
+                                    class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+                                    <input class="woocommerce-form__input woocommerce-form__input-checkbox"
+                                        name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Ghi nhớ
+                                        mật khẩu</span>
+                                </label>
+                                <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce"
+                                    value="98e5e27265"><input type="hidden" name="_wp_http_referer"
+                                    value="/my-account/"> 
+                            </p>
+                            <p>
+                                <button type="submit"
+                                    class="woocommerce-button button woocommerce-form-login__submit" name="login"
+                                    value="Đăng nhập">Đăng nhập</button>
+                            </p>
+                            <p class="woocommerce-LostPassword lost_password text-center">
+                                <a href="https://xxivstore.com/my-account/lost-password/">Quên mật khẩu?</a>
+                            </p>
+
+
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <form method="post" class="woocommerce-form woocommerce-form-register register">
+
+
+
+                            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                <label for="reg_email">Địa chỉ email&nbsp;<span class="required">*</span></label>
+                                <input type="email" class="woocommerce-Input woocommerce-Input--text input-text"
+                                    name="email" id="reg_email" autocomplete="email" value="">
+                            </p>
+
+
+                            <p>Một mật khẩu sẽ được gửi đến địa chỉ email của bạn.</p>
+
+
+                            <div class="woocommerce-privacy-policy-text"></div>
+                            <p class="woocommerce-form-row form-row">
+                                <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce"
+                                    value="bdff7b6b89"><input type="hidden" name="_wp_http_referer"
+                                    value="/my-account/"> <button type="submit"
+                                    class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit"
+                                    name="register" value="Đăng ký">Đăng ký</button>
+                            </p>
+
+
+                        </form>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-contact">
+        <div class="bs-container">
+            <div class="module-contact">
+                <div class="module">
+                    <h1 class="module-header">King Fragrance</h1>
+                    <div class="module-content">
+                        <p><i class="fas fa-map-marker-alt"></i>Số 78C, ngõ 87 Láng Hạ, Hà Nội | 525/44 Tô Hiến Thành,
+                            P14, Q10, TP. Hồ Chí Minh</p>
+                        <p><i class="fas fa-mobile-alt"></i>090 721 9889
+                            <i class="far fa-envelope"></i>xxiv.fragrance@gmail.com
+                        </p>
+                        <p>Giờ mở cửa: Các ngày trong tuần từ 9:00 – 21:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+        
+    <footer id="footer">
+       <div class="bs-container">
+           <div class="bs-row">
+               <div class="bs-col">
+                   <div class="footer-content">
+                       <div class="footer-top">
+                           <div class="bs-row row-xs-15">
+                               <div class="bs-col sm-40-15 xs-100-15">
+                                   <div class="footer-info"   >
+                                       <a href="#" class="link"><img src="images/logo.png" alt=""></a>
+                                       <p class="desc"></p>
+                                       <div class="footer-social">
+                                           <a href="#" class="social__link facebook"><i class="fab fa-facebook-f"></i></a>
+                                           <a href="#" class="social__link twitter"><i class="fab fa-twitter"></i></a>
+                                           <a href="#" class="social__link google-plus"><i class="fab fa-google-plus-g"></i></a>
+                                           <a href="#" class="social__link youtube-play"><i class="fab fa-youtube"></i></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="bs-col sm-25-15 xs-45-15">
+                                   <div class="footer-link"  >
+                                       <div class="head">
+                                           <p class="title">chính sách bán hàng</p>
+                                       </div>
+                                       <div class="content">
+                                           <ul class="footer-list">
+                                               <li class="footer-list__item" onclick="scrollFn('.section-banner')">
+                                                   <a class="footer-list__link">phương thức vận chuyển</a>
+                                               </li>
+                                               <li class="footer-list__item" onclick="scrollFn('.section-culture')">
+                                                   <a class="footer-list__link">câu hỏi thường gặp</a>
+                                               </li>
+                                               <li class="footer-list__item" onclick="scrollFn('.section-leadership')">
+                                                   <a class="footer-list__link" >điều khoản và điện kiện sử dụng</a>
+                                               </li>
+                                               <li class="footer-list__item" onclick="scrollFn('.section-investors')">
+                                                   <a class="footer-list__link">điều khoản và điều kiện bán hàng</a>
+                                               </li>
+                                               <li class="footer-list__item" onclick="scrollFn('.section-products')">
+                                                   <a class="footer-list__link">thông báo pháp lý</a>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="bs-col sm-35-15 xs-55-15">
+                                   <div class="footer-contact"   data-aos-delay="800">
+                                       <div class="head">
+                                           <p class="title">thông tin liên hệ</p>
+                                       </div>
+                                       <div class="content">
+<!--                                           <p class="desc"><span>Phone:</span></p>-->
+                                           <p class="desc"><span>Email:</span>Hungdvph13919@fpt.edu.vn</p>
+                                           <p class="desc"><span>Address:</span>163 Tras Street, #10-5 Lian Huat Building, Singapore, Singapore, zipcode 079024</p>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="footer-bottom" >
+                           <p class="desc">© Group 7. All Rights Reserved.</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </footer>
+    
+    
+	
+    <script src="js/tool.min.js"></script>
+    <script src="js/main.min.js"></script>
+        
+<script>
+    $(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+            $(this).tab('show');
+        });
+    });
+</script>
+
+</body>
+</html>

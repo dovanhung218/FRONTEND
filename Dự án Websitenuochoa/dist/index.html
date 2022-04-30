@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>ByteNext</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="images/icon/fav_icon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/tool.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+    
+</head>
+<body class="index">
+    <header id="header">
+    <div class="header-nav">
+        <div class="bs-container">
+            <div class="nav-content clearfix">
+                <div class="logo" data-aos="fade-down">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    <span class="line"></span>
+                </div>
+
+                <div class="nav">
+                    <span class="show__menu"><i class="fas fa-bars"></i></span>
+                    <div class="menu">
+                        <span class="close__menu"><i class="far fa-window-close"></i></span>
+                        <ul class="menu-list clearfix" data-aos="fade-left" data-aos-delay="300">
+                            <li class="menu-list__item">
+                                <a href="index.html" class="menu-list__link active">Trang chủ</a>
+                            </li>
+                            <li class="menu-list__item">
+                                <a href="about.html" class="menu-list__link">Giới thiệu</a>
+                            </li>
+                            <li class="menu-list__item">
+                                <a href="brand.html" class="menu-list__link">Thương hiệu</a>
+                            </li>
+                            <li class="menu-list__item">
+                                <a class="menu-list__link" href="product.html">Sản phẩm</a>
+                                <ul class="dropdown-list">
+                                    <li class="dropdown-list__item">
+                                        <a href="" class="dropdown-list__link">nước hoa nam</a>
+                                    </li>
+                                    <li class="dropdown-list__item">
+                                        <a href="press_releases.html" class="dropdown-list__link">nước hoa nữ</a>
+                                    </li>
+                                    <li class="dropdown-list__item">
+                                        <a href="press_releases.html" class="dropdown-list__link">nước hoa unisex</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-list__item">
+                                <a href="blog.html" class="menu-list__link">Blog</a>
+                            </li>
+                            <li class="menu-list__item ml iconafter">
+                               <form action=""> <input type="text" name="" id="" placeholder="Tìm kiếm...">
+                                <a href="" class="menu-list__link link-navright link-search"> <i class="fas fa-search"></i></a></form>
+                            </li>
+                            <li class="menu-list__item iconafter">
+                                <a href="account.html" class="menu-list__link link-navright"> <i class="far fa-user"></i></a>
+                            </li>
+                            <li class="menu-list__item iconafter">
+                                <a href="cart.html" class="menu-list__link link-navright" onclick="tinhtien()"> <i class="fas fa-cart-arrow-down"></i></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    
+<main id="main">
+    <section class="section-banner" data-aos="zoom-out">
+        <div class="banner-slide">
+            <div class="slide-item"
+                style="background-image: url(images/banner-1.png);background-size: cover;">
+                <div class="bs-container">
+                    <div class="bs-row">
+                        <div class="bs-col">
+                            <div class="module module-banner">
+                                <span class="line"></span>
+                                <div class="module-header">
+                                    <img src="images/banner_arrow.png" alt="">
+                                    <p class="title">đến đây nếu bạn muốn </p>
+                                </div>
+                                <div class="module-content">
+                                    <p class="desc"> trở nên hấp dẫn</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item"
+                style="background-image: url(images/banner-2.png);background-size: cover;">
+                <div class="bs-container">
+                    <div class="bs-row">
+                        <div class="bs-col">
+                            <div class="module module-banner">
+                                <span class="line"></span>
+                                <div class="module-header">
+                                    <img src="images/banner_arrow.png" alt="">
+                                    <p class="title">đến đây nếu bạn muốn </p>
+                                </div>
+                                <div class="module-content">
+                                    <p class="desc">trở nên tuyệt vời trong mắt mọi người</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item"
+                style="background-image: url(images/banner-3.png);background-size: cover;">
+                <div class="bs-container">
+                    <div class="bs-row">
+                        <div class="bs-col">
+                            <div class="module module-banner">
+                                <span class="line"></span>
+                                <div class="module-header">
+                                    <img src="images/banner_arrow.png" alt="">
+                                    <p class="title">đến đây nếu bạn muốn </p>
+                                </div>
+                                <div class="module-content">
+                                    <p class="desc">tận hưởng hương thơm 24/24</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="section-brand-special">
+        <div class="module-brand-special">
+            <div class="bs-container">
+                <div class="module">
+                    <h1 class="module-header text-center">thương hiệu nổi tiếng</h1>
+                    <div class="module-content">
+                        <div class="brand-class ">
+                            <div ><a href=""><img src="images/brand1.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand2.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand5.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand4.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand5.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand5.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand5.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand5.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand5.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand5.png" alt=""></a></div>
+                            <div ><a href=""><img src="images/brand5.png" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-product-special">
+        <div class="module-product-special">
+            <div class="bs-container">
+                <div class="module">
+                    <h1 class="module-header text-center">sản phẩm nổi bật</h1>
+                    <div class="module-content">
+                        <br>
+                       
+                        <div class="tab-content">
+                            <div id="home" class="container tab-pane active"><br>
+                                <h1 class="module-header" style="font-size: 20px;padding: 20px 0px;">Nước Hoa Nam</h1>
+
+                                <div class="bs-row product-class">
+                                    
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="home" class="container tab-pane active"><br>
+                                <h1 class="module-header" style="font-size: 20px;padding: 20px 0px;">Nước Hoa Nữ</h1>
+
+                                <div class="bs-row product-class">
+                                    
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="home" class="container tab-pane active"><br>
+                                <h1 class="module-header" style="font-size: 20px;padding: 20px 0px;">Nước Hoa Unisex</h1>
+
+                                <div class="bs-row product-class">
+                                    
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col tn-33-15">
+                                        <div class="card">
+                                            <a href="productDetail.html"> <img class="card-img-top"
+                                                    src="images/pr-1.png" alt=""></a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Creed</h4>
+                                                <p class="card-colorCategory">Aventus</p>
+                                                <p class="card-text">5.7000.000 đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-contact">
+        <div class="bs-container">
+            <div class="module-contact">
+                <div class="module">
+                    <h1 class="module-header">King Fragrance</h1>
+                    <div class="module-content">
+                        <p><i class="fas fa-map-marker-alt"></i>Số 78C, ngõ 87 Láng Hạ, Hà Nội | 525/44 Tô Hiến Thành,
+                            P14, Q10, TP. Hồ Chí Minh</p>
+                        <p><i class="fas fa-mobile-alt"></i>090 721 9889
+                            <i class="far fa-envelope"></i>xxiv.fragrance@gmail.com
+                        </p>
+                        <p>Giờ mở cửa: Các ngày trong tuần từ 9:00 – 21:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-default">
+        <div data-src="/wp-content/themes/yootheme/cache/cover-39ba38b7.webp"
+            data-srcset="/wp-content/themes/yootheme/cache/cover-3b9a4d7c.webp 768w, /wp-content/themes/yootheme/cache/cover-97fa4dca.webp 1024w, /wp-content/themes/yootheme/cache/cover-d44b7c3f.webp 1366w, /wp-content/themes/yootheme/cache/cover-5f306bfb.webp 1600w, /wp-content/themes/yootheme/cache/cover-16dcb193.webp 1920w, /wp-content/themes/yootheme/cache/cover-39ba38b7.webp 2000w"
+            data-sizes="(max-aspect-ratio: 2000/1153) 173vh" uk-img=""
+            class="uk-background-norepeat uk-background-cover uk-background-center-center uk-background-fixed uk-section uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle"
+            uk-height-viewport="offset-top: true; offset-bottom: 20;"
+            style="min-height: calc(80vh); background-image: url(&quot;https://xxivstore.com/wp-content/themes/yootheme/cache/cover-16dcb193.webp&quot;);">
+
+
+
+            <div class="uk-width-1-1">
+
+
+
+                <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
+                    <div class="uk-first-column">
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</main>
+
+        <footer id="footer">
+       <div class="bs-container">
+           <div class="bs-row">
+               <div class="bs-col">
+                   <div class="footer-content">
+                       <div class="footer-top">
+                           <div class="bs-row row-xs-15">
+                               <div class="bs-col sm-40-15 xs-100-15">
+                                   <div class="footer-info"   >
+                                       <a href="#" class="link"><img src="images/logo.png" alt=""></a>
+                                       <p class="desc"></p>
+                                       <div class="footer-social">
+                                           <a href="#" class="social__link facebook"><i class="fab fa-facebook-f"></i></a>
+                                           <a href="#" class="social__link twitter"><i class="fab fa-twitter"></i></a>
+                                           <a href="#" class="social__link google-plus"><i class="fab fa-google-plus-g"></i></a>
+                                           <a href="#" class="social__link youtube-play"><i class="fab fa-youtube"></i></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="bs-col sm-25-15 xs-45-15">
+                                   <div class="footer-link"  >
+                                       <div class="head">
+                                           <p class="title">chính sách bán hàng</p>
+                                       </div>
+                                       <div class="content">
+                                           <ul class="footer-list">
+                                               <li class="footer-list__item" onclick="scrollFn('.section-banner')">
+                                                   <a class="footer-list__link">phương thức vận chuyển</a>
+                                               </li>
+                                               <li class="footer-list__item" onclick="scrollFn('.section-culture')">
+                                                   <a class="footer-list__link">câu hỏi thường gặp</a>
+                                               </li>
+                                               <li class="footer-list__item" onclick="scrollFn('.section-leadership')">
+                                                   <a class="footer-list__link" >điều khoản và điện kiện sử dụng</a>
+                                               </li>
+                                               <li class="footer-list__item" onclick="scrollFn('.section-investors')">
+                                                   <a class="footer-list__link">điều khoản và điều kiện bán hàng</a>
+                                               </li>
+                                               <li class="footer-list__item" onclick="scrollFn('.section-products')">
+                                                   <a class="footer-list__link">thông báo pháp lý</a>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="bs-col sm-35-15 xs-55-15">
+                                   <div class="footer-contact"   data-aos-delay="800">
+                                       <div class="head">
+                                           <p class="title">thông tin chung</p>
+                                       </div>
+                                       <div class="content">
+<!--                                           <p class="desc"><span>Phone:</span></p>-->
+                                           <p class="desc"><a href="">Giới thiệu</a></p>
+                                           <p class="desc"><a href="">Blog</a></p>
+                                           <p class="desc"><a href="">liên hệ</a></p>
+                                           <p class="desc"><a href="">sản phẩm</a></p>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="footer-bottom" >
+                           <p class="desc">© Group 7. All Rights Reserved.</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </footer>
+    
+    
+	
+    <script src="js/tool.min.js"></script>
+    <script src="js/main.min.js"></script>
+        
+<script>
+    $(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+            $(this).tab('show');
+        });
+
+        $('.brand-class').slick({
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            dots: true,
+            swipeToSlide: true, draggable:true,
+
+        });
+        $('.product-class').slick({
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            dots: true,
+            swipeToSlide: true,
+            draggable:true,
+
+        });
+
+
+    });
+
+    $(".banner-slide").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        centerMode: false,
+        centerPadding: '0',
+        dots: true,
+        fade: false,
+        autoplay: true,
+        infinite: true,
+        draggable: true,
+        swipeToSlide: true,
+        touchMove: true,
+        swipe: true,
+        speed: 1000,
+        autoplaySpeed: 5000,
+    });
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+body{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    line-height: 14px;
+    box-sizing: border-box;
+ }
+ .grid{
+     width: 1200px;
+     max-width: 100%;
+     margin: 0 auto;
+ }
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}

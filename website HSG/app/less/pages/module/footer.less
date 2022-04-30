@@ -1,0 +1,58 @@
+#footer{
+    overflow: hidden;
+    position: relative;
+     .form-contact{
+         position: absolute;
+         left: 0px;
+         bottom: 15px;
+         background-color: white;
+         padding: 80px 50px 50px 100px;
+         width: 700px;
+         height: 370px;
+         form{
+             padding-left: 30px;
+             input{
+                border: none;
+                 border-bottom: 1px solid red;
+                 margin-top: 25px;
+                 border-radius: none !important;
+
+             }
+             button{
+                margin-top: 25px;
+                border-radius: 20px;
+                padding: 10px 30px;
+                background-color: red;
+             }
+         }
+     }
+}
+
+@media only screen and (max-width:1200px){
+    .form-contact{
+        padding: 80px 50px 50px 69px !important;
+         width: 473px !important;
+         form{
+             .bs-col{
+                 padding: unset !important;
+             }
+         }
+    }
+}
+
+@media only screen and (max-width:992px){
+    .form-contact{
+        bottom: 114% !important;
+        width: 100% !important;
+        form{
+            padding-left: 0px !important;
+            .bs-col{
+                padding: 20px !important;
+            }
+        }
+        }
+    
+    #footer{
+        margin-top: 400px !important;
+    }
+}

@@ -1,0 +1,79 @@
+/* mobile */
+@media (max-width:740px){
+    #content .member-list{
+        display: flex;
+        flex-direction: column;
+    }
+    #content .member-item{
+        width: 100%; 
+        margin-top: 48px;
+    }
+    #content .member-img {
+        width: 60%;
+        height: 340px;
+    }
+    #content .place-item {
+        margin-top: 16px;
+    }
+    #content .places-list {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav{
+       overflow: hidden;
+    }
+    #nav .list {
+        display: block;
+    }
+    #nav>.list>.item {
+        display: block;
+    }
+    #nav>.list>.item>.link {
+        display: block;
+    }
+    #nav .sublist{
+        position: initial;
+    }
+    #nav>.list>.item:first-child{
+        display: inline-block;
+    }
+    #nav .search-btn {
+        display: none;
+    }
+    #nav .menu-icon{
+        display: block;
+    }
+    #nav>.list>.item:hover>.sublist .item{
+        display: block;
+     }
+    #nav>.list>.item:hover>.sublist{
+        display: block;
+        background-color: black;
+        width: 100%;
+     }
+     #nav>.list>.item:hover>.sublist .link{
+       color:white;
+       padding-left: 20px;
+     }
+     .row-info{
+         flex-direction: column;
+     }
+     .contact-info{
+         width: 100%;
+     }
+     .contact-form{
+         width: 100%;
+     }
+     .place-buy-btn{
+         width: 100%;
+         text-align: center;
+     }
+     .send-btn{
+         width: 100%;
+     }
+     input[type=submit]{
+         width: 100%;
+     }
+     
+    
+}

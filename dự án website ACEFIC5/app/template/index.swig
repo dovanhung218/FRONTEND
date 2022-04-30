@@ -1,0 +1,721 @@
+{% extends 'layouts/base.swig' %}
+{% block pageTitle %} ĐỖ VĂN HÙNG {% endblock %}
+{% block bodyClass %}index{% endblock %}
+{% block content %}
+<main id="main">
+    <div class="section-banner">
+        <div class="banner-top">
+            <img src="../../dist/images/images-banner/banner-top.png" alt="" class="banner-top-img">
+        </div>
+        <div class="bs-container">
+            <div class="bs-row">
+                <div class="bs-col">
+                    <div class="module">
+                        <div class="module-header">
+                            <h1 class="title-module">from concept to creation.</h1>
+                        </div>
+                        <p class="module-content">It is a long established fact that a
+                            reader will be distracted by the readable content
+                        </p>
+                        <div class="btn-see-more"><a href="" class="link-see-more">xem thêm</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-intro" id="intro">
+        <div class="bs-container">
+            <div class="bs-row">
+                <div class="bs-col lg-50 md-50 sm-order-2">
+                    <div class="intro-banner">
+                        <div class="intro-content">
+                            <img src="../../dist/images/images-banner/intro-banner.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-col lg-50 md-50 sm-order-1">
+                    <div class="module ">
+                        <div class="module-header">
+                            <h1 class="title-module">
+                                về chúng tôi
+                            </h1>
+                        </div>
+                        <div class="bottom-module-header">
+                            <span class="style-rectange"></span>
+                        </div>
+                        <p class="module-content">
+                            Scarcely on striking packages
+                            by so property in delicate. Up or well must less rent read walk so
+                            be. Easy sold at do hour sing spot. Any meant has cease too the deca
+                            y. Since party burst am it match. By or blushes between besides offi
+                            ces noisier as. Sending do brought winding compass in. Paid day till
+                            shed only fact age its end.
+                        </p>
+                        <div class="btn-see-more">
+                            <a href="" class="link-see-more">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-col sm-order-last">
+                    <h1 class="title-bottom">
+                        about us
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-field" id="field">
+        <div class="bs-container">
+            <div class="bs-row">
+                <div class="bs-col lg-50">
+                    <div class="module">
+                        <div class="module-header">
+                            <h1 class="title-module">
+                                lĩnh vực hoạt động
+                            </h1>
+                        </div>
+                        <div class="bottom-module-header">
+                            <span class="style-rectange"></span>
+                        </div>
+                        <div class="module-content">
+                            <ul class="list-conception">
+                                <li class="item-conception">
+                                    <h3 class="conception-heading">
+                                        <span class="number-order">01</span>
+                                        <span class="title-conception">thiết kế kiến trúc</span>
+                                    </h3>
+                                    <p class="conception-content">
+                                        Scarcely on striking packages by so
+                                        property in delicate. Up or well must less
+                                        rent read walk so be. Easy sold at do hour sing spot.
+                                    </p>
+
+                                </li>
+                                <li class="item-conception">
+                                    <h3 class="conception-heading">
+                                        <span class="number-order">02</span>
+                                        <span class="title-conception">thiết kế kiến trúc</span>
+                                    </h3>
+                                    <p class="conception-content">
+                                        Scarcely on striking packages by so
+                                        property in delicate. Up or well must less
+                                        rent read walk so be. Easy sold at do hour sing spot.
+                                    </p>
+
+                                </li>
+                                <li class="item-conception">
+                                    <h3 class="conception-heading">
+                                        <span class="number-order">03</span>
+                                        <span class="title-conception">thiết kế kiến trúc</span>
+                                    </h3>
+                                    <p class="conception-content">
+                                        Scarcely on striking packages by so
+                                        property in delicate. Up or well must less
+                                        rent read walk so be. Easy sold at do hour sing spot.
+                                    </p>
+
+                                </li>
+                                <li class="item-conception">
+                                    <h3 class="conception-heading">
+                                        <span class="number-order">04</span>
+                                        <span class="title-conception">thiết kế kiến trúc</span>
+                                    </h3>
+                                    <p class="conception-content">
+                                        Scarcely on striking packages by so
+                                        property in delicate. Up or well must less
+                                        rent read walk so be. Easy sold at do hour sing spot.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-col lg-50">
+                    <div class="field-banner">
+                        <div class="field-content">
+                            <img src="../../dist/images/images-banner/banner-field.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-col">
+                    <h1 class="title-bottom">
+                        market
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-project" id="project">
+        <div class="bs-container">
+            <div class="bs-row">
+                <div class="bs-col lg-25 md-25">
+                    <div class="module">
+                        <div class="module-header">
+                            <span class="top-module-header">dự án mới nhất</span>
+                            <h1 class="title-module">dự án nổi bật</h1>
+                        </div>
+                        <div class="bottom-module-header">
+                            <span class="style-rectange"></span>
+                        </div>
+
+                        <ul class="list-project">
+                            <li class="item-project"><a href="" class="link-item-project">tất cả
+
+                                </a></li>
+                            <li class="item-project"><a href="" class="link-item-project">thương mại</a></li>
+                            <li class="item-project"><a href="" class="link-item-project">giáo dục</a></li>
+                            <li class="item-project"><a href="" class="link-item-project">bệnh viện</a></li>
+                            <li class="item-project"><a href="" class="link-item-project">thường trú</a></li>
+                            <li class="item-project"><a href="" class="link-item-project">văn phòng</a></li>
+                            <li class="item-project"><a href="" class="link-item-project">tái thiết</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bs-col lg-75 md-65">
+                    <div class="tab-module">
+                        <div class="bs-tab">
+                            <div class="tab-container">
+                                <div class="tab-control">
+                                    <span class="control__show">Tab1</span>
+                                    <ul class="control-list">
+                                        <li class="control-list__item active" tab-show="#tab1">
+                                            <div class="arrow-left-icon">
+                                                <i class="fas fa-long-arrow-alt-left"></i>
+                                            </div>
+                                        </li>
+                                        <li class="control-list__item" tab-show="#tab2">
+                                            <div class="arrow-right-icon">
+                                                <i class="fas fa-long-arrow-alt-right"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-item active" id="tab1">
+                                        <div class="bs-slide">
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-1.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-4.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-3.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-4.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-5.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-6.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-item" id="tab2">
+                                        <div class="bs-slide">
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-1.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-5.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-3.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-4.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item" onclick="showProject()">
+                                                <img src="../../dist/images/images-banner/project-img-5.png" alt="">
+                                                <div class="infomation-project">
+                                                    <div class="bs-row">
+                                                        <div class="bs-col tn-85">
+                                                            <div class="title-project">tòa nhà thành phố</div>
+                                                            <div class="content-project">Thương mại</div>
+                                                        </div>
+                                                        <div class="bs-col tn-10 icon-new">
+                                                            <div class="btn-new">
+                                                                <i class="fas fa-plus"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-col">
+                    <h1 class="title-bottom">
+                        projects
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-recruitment" id="recruiment">
+        <div class="bs-container">
+            <div class="bs-row">
+                <div class="bs-col lg-40 md-40 sm-order-2 xs-order-2">
+                    <div class="banner-recruitment">
+                        <div class="recruitment-content">
+                            <img src="../../dist/images/images-banner/banner-recruitment.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-col lg-55 md-60 sm-order-1 xs-order-1">
+                    <div class="module">
+                        <div class="module-header">
+                            <h1 class="title-module">tuyển dụng</h1>
+                        </div>
+                        <div class="bottom-module-header">
+                            <span class="style-rectange"></span>
+                        </div>
+                        <p class="module-content">
+                            Resources exquisite set arrangi
+                            ng moonlight sem him household ha
+                            d. Months had too ham cousin remov
+                            e far spirit. She procuring the why
+                            performed continual improving.
+                        </p>
+                        <div class="btn-see-more">
+                            <a href="" class="link-see-more">nộp đơn</a>
+                        </div>
+                    </div>
+
+                    <h1 class="title-bottom">
+                        recruitment
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-hot-news">
+        <div class="bs-container">
+            <div class="bs-col">
+                <div class="module">
+                    <div class="module-header">
+                        <h1 class="title-module">tin mới nhất</h1>
+                    </div>
+                    <div class="bottom-module-header">
+                        <div class="style-rectange"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bs-row">
+                <div class="bs-col lg-33 md-33 sm-50">
+                    <div class="product">
+                        <img src="../../dist/images/images-banner/hot-new-1.png" alt="">
+                        <div class="infomation-product">
+                            <div class="product-header">
+                                <div class="product-calendar"><span class="clock-icon"><i
+                                            class="far fa-clock"></i></span>5. december. 2020</div>
+                                <div class="product-view"><span class="eyes-icon"><i class="far fa-eye"></i></span>328
+                                </div>
+                            </div>
+                            <p class="product-content">Lorem ipsum dolor sit amet
+                                aenean nisi sociis ipsum
+                            </p>
+                            <div class="product-view-more">Xem thêm <div class="new-icon"><a href=""><i
+                                            class="fas fa-plus"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-col lg-33 md-33 sm-50">
+                    <div class="product">
+                        <img src="../../dist/images/images-banner/hot-new-2.png" alt="">
+                        <div class="infomation-product">
+                            <div class="product-header">
+                                <div class="product-calendar"><span class="clock-icon"><i
+                                            class="far fa-clock"></i></span>5. december. 2020</div>
+                                <div class="product-view"><span class="eyes-icon"><i class="far fa-eye"></i></span>328
+                                </div>
+                            </div>
+                            <p class="product-content">Lorem ipsum dolor sit amet
+                                aenean nisi sociis ipsum
+                            </p>
+                            <div class="product-view-more">Xem thêm <div class="new-icon"><a href=""><i
+                                            class="fas fa-plus"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-col lg-33 md-33 sm-50">
+                    <div class="product">
+                        <img src="../../dist/images/images-banner/hot-new-3.png" alt="">
+                        <div class="infomation-product">
+                            <div class="product-header">
+                                <div class="product-calendar"><span class="clock-icon"><i
+                                            class="far fa-clock"></i></span>5. december. 2020</div>
+                                <div class="product-view"><span class="eyes-icon"><i class="far fa-eye"></i></span>328
+                                </div>
+                            </div>
+                            <p class="product-content">Lorem ipsum dolor sit amet
+                                aenean nisi sociis ipsum
+                            </p>
+                            <div class="product-view-more">Xem thêm <div class="new-icon"><a href=""><i
+                                            class="fas fa-plus"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bs-col sm-100">
+                <div class="bottom-section-news bs-row">
+                    <div class="btn-see-more">
+                        <a href="" class="link-see-more">xem tiếp</a>
+                    </div>
+                    <h1 class="title-bottom">latest news</h1>
+                </div>
+            </div>
+            <div class="banner-section-new">
+            </div>
+        </div>
+    </div>
+    <div class="light-dark" id="light"></div>
+    <div class="popup-project" id="show-prj">
+        <div class="bs-container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="carousel-caption">
+                            <div class="project-info">
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <div class="module">
+                                    <div class="module-header">
+                                        <img src="../../dist/images/images-banner/hot-new-3.png" alt="">
+                                    </div>
+                                    <div class="module-content">
+                                        <div class="title-content">DỰ ÁN N04B-NGOẠI GIAO ĐOÀN</div>
+                                        <ul>
+                                            <div class="bs-row">
+                                                <div class="bs-col tn-30">
+                                                    <li class="field-project">Tên dự án</li>
+                                                    <li class="field-project">Chủ đầu tư</li>
+                                                    <li class="field-project">Hạng mục</li>
+                                                    <li class="field-project">Địa điểm</li>
+                                                    <li class="field-project">Loại công trình</li>
+                                                    <li class="field-project">Cấp công trình</li>
+                                                    <li class="field-project">Thời gian thực hiện</li>
+                                                </div>
+                                                <div class="bs-col tn-70">
+                                                    <li class="field-content-project">:Tổ hợp chung cư cao tầng
+                                                        N048-khu đoàn Ngoại giao tại Hà Nội</li>
+                                                    <li class="field-content-project">:Công ty Cổ phần Đầu tư xây
+                                                        dựng Bất động sản lanmak</li>
+                                                    <li class="field-content-project">:Phần kết cấu thân nhà/phần
+                                                        hoàn thiện khiến trúc</li>
+                                                    <li class="field-content-project">:Khu đoàn ngoại giao, Xuân
+                                                        Tảo, Bắc Từ Liêm,Hà Nội</li>
+                                                    <li class="field-content-project">:Dân dụng, căn hộ chung cư
+                                                    </li>
+                                                    <li class="field-content-project">:Cấp 1</li>
+                                                    <li class="field-content-project">2019-2020</li>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="carousel-caption">
+                            <div class="project-info">
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <div class="module">
+                                    <div class="module-header">
+                                        <img src="../../dist/images/images-banner/hot-new-2.png" alt="">
+                                    </div>
+                                    <div class="module-content">
+                                        <div class="title-content">DỰ ÁN N04B-NGOẠI GIAO ĐOÀN</div>
+                                        <ul>
+                                            <div class="bs-row">
+                                                <div class="bs-col tn-30">
+                                                    <li class="field-project">Tên dự án</li>
+                                                    <li class="field-project">Chủ đầu tư</li>
+                                                    <li class="field-project">Hạng mục</li>
+                                                    <li class="field-project">Địa điểm</li>
+                                                    <li class="field-project">Loại công trình</li>
+                                                    <li class="field-project">Cấp công trình</li>
+                                                    <li class="field-project">Thời gian thực hiện</li>
+                                                </div>
+                                                <div class="bs-col tn-70">
+                                                    <li class="field-content-project">:Tổ hợp chung cư cao tầng
+                                                        N048-khu đoàn Ngoại giao tại Hà Nội</li>
+                                                    <li class="field-content-project">:Công ty Cổ phần Đầu tư xây
+                                                        dựng Bất động sản lanmak</li>
+                                                    <li class="field-content-project">:Phần kết cấu thân nhà/phần
+                                                        hoàn thiện khiến trúc</li>
+                                                    <li class="field-content-project">:Khu đoàn ngoại giao, Xuân
+                                                        Tảo, Bắc Từ Liêm,Hà Nội</li>
+                                                    <li class="field-content-project">:Dân dụng, căn hộ chung cư
+                                                    </li>
+                                                    <li class="field-content-project">:Cấp 1</li>
+                                                    <li class="field-content-project">2019-2020</li>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="carousel-caption">
+                            <div class="project-info">
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <div class="module">
+                                    <div class="module-header">
+                                        <img src="../../dist/images/images-banner/hot-new-2.png" alt="">
+                                    </div>
+                                    <div class="module-content">
+                                        <div class="title-content">DỰ ÁN N04B-NGOẠI GIAO ĐOÀN</div>
+                                        <ul>
+                                            <div class="bs-row">
+                                                <div class="bs-col tn-30">
+                                                    <li class="field-project">Tên dự án</li>
+                                                    <li class="field-project">Chủ đầu tư</li>
+                                                    <li class="field-project">Hạng mục</li>
+                                                    <li class="field-project">Địa điểm</li>
+                                                    <li class="field-project">Loại công trình</li>
+                                                    <li class="field-project">Cấp công trình</li>
+                                                    <li class="field-project">Thời gian thực hiện</li>
+                                                </div>
+                                                <div class="bs-col tn-70">
+                                                    <li class="field-content-project">:Tổ hợp chung cư cao tầng
+                                                        N048-khu đoàn Ngoại giao tại Hà Nội</li>
+                                                    <li class="field-content-project">:Công ty Cổ phần Đầu tư xây
+                                                        dựng Bất động sản lanmak</li>
+                                                    <li class="field-content-project">:Phần kết cấu thân nhà/phần
+                                                        hoàn thiện khiến trúc</li>
+                                                    <li class="field-content-project">:Khu đoàn ngoại giao, Xuân
+                                                        Tảo, Bắc Từ Liêm,Hà Nội</li>
+                                                    <li class="field-content-project">:Dân dụng, căn hộ chung cư
+                                                    </li>
+                                                    <li class="field-content-project">:Cấp 1</li>
+                                                    <li class="field-content-project">2019-2020</li>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="carousel-caption">
+                            <div class="project-info">
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <div class="module">
+                                    <div class="module-header">
+                                        <img src="../../dist/images/images-banner/hot-new-1.png" alt="">
+                                    </div>
+                                    <div class="module-content">
+                                        <div class="title-content">DỰ ÁN N04B-NGOẠI1</div>
+                                        <ul>
+                                            <div class="bs-row">
+                                                <div class="bs-col tn-30">
+                                                    <li class="field-project">Tên dự án</li>
+                                                    <li class="field-project">Chủ đầu tư</li>
+                                                    <li class="field-project">Hạng mục</li>
+                                                    <li class="field-project">Địa điểm</li>
+                                                    <li class="field-project">Loại công trình</li>
+                                                    <li class="field-project">Cấp công trình</li>
+                                                    <li class="field-project">Thời gian thực hiện</li>
+                                                </div>
+                                                <div class="bs-col tn-70">
+                                                    <li class="field-content-project">:Tổ hợp chung cư cao tầng
+                                                        N048-khu đoàn Ngoại giao tại Hà Nội</li>
+                                                    <li class="field-content-project">:Công ty Cổ phần Đầu tư xây
+                                                        dựng Bất động sản lanmak</li>
+                                                    <li class="field-content-project">:Phần kết cấu thân nhà/phần
+                                                        hoàn thiện khiến trúc</li>
+                                                    <li class="field-content-project">:Khu đoàn ngoại giao, Xuân
+                                                        Tảo, Bắc Từ Liêm,Hà Nội</li>
+                                                    <li class="field-content-project">:Dân dụng, căn hộ chung cư
+                                                    </li>
+                                                    <li class="field-content-project">:Cấp 1</li>
+                                                    <li class="field-content-project">2019-2020</li>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icon-exit-project" onclick="click_exit()"><i class="far fa-times-circle"></i></div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+{% block script %}
+
+{% endblock %}

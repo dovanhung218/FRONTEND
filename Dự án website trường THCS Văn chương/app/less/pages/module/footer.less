@@ -1,0 +1,105 @@
+#footer {
+    font-size: 17px;
+   height: 200px;
+   position: relative;
+  .address{
+      position: absolute;
+      left: 50%;
+      bottom: 10%;
+      transform: translateX(-50%);
+      padding: 0px;
+     .background-footer{
+         position: absolute;
+         bottom: 10%;
+         width: 100%;
+         .heading-footer{
+             height: 20px;
+            .text-heading{
+                position: relative;
+                float: left;
+                color:#33c5ff;
+            padding-left: 30px;
+             }
+             .line-right{
+                 position: absolute;
+                 float: right;
+                 left: 15%;
+                 top: 6%;
+                 width: 82.5%;
+                 border-top: 2px solid #33c5ff;
+             }
+         }
+         .list-web{
+             background-color: #deecf1;
+             margin-top: 25px;
+             list-style: none;
+             margin: 30px;
+             padding: 10px;
+             .item-web{
+                margin: 0 20px;
+                 width: 21.3%;
+                select{
+                    padding:10px 0px;
+                    width: 100%;
+                }
+             }
+         }
+         
+         .text-address{
+             color: #33c5ff;
+             text-align: center;
+             margin-top: 25px;
+         }
+     }  
+     .background{
+        background-color: #0b3c4fe6;
+        height: 290px;
+        bottom: 0%;
+        position: absolute;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+     }
+  }
+}
+
+
+@media  only screen and (max-width:1200px) {
+    #footer{
+        margin-top: 130px;
+    }
+    .background{
+        height: 420px !important;
+    }
+    .item-web{
+        width: 95% !important;
+        & + .item-web{
+            margin-top: 10px !important;
+        }
+    }
+    .line-right{
+        top: 3.5% !important;
+        left: 25% !important;
+        width: 70% !important;
+    }
+}
+@media  only screen and (max-width:768px) {
+    #footer{
+        margin-top: 130px;
+    }
+    .address{
+        width: 100%;
+    }
+    .line-right{
+        display: none;
+    }
+    .text-heading{
+        margin-top: 20px;
+      width: 100% !important;
+      text-align: center;
+    }
+    select{
+        padding-left: 30px !important;
+        border: 2px solid #0b3c4fe6;
+    }
+}
